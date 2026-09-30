@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade - Quanto Custa Minha Vida</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { colors: { bgMain: '#0F1117', bgCard: '#171A21', accent: '#00D4AA', textMain: '#FFFFFF', textSec: '#9CA3AF' }, fontFamily: { sans: ['Inter', 'sans-serif'] } } } }
+  </script>
+  <style> body { background-color: #0F1117; color: #FFFFFF; } </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col">
+
+  <nav class="sticky top-0 w-full bg-bgMain/90 backdrop-blur-md z-50 border-b border-white/5">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-textMain font-bold text-xl tracking-tight flex items-center gap-2">
+        <i data-lucide="wallet" class="text-accent"></i> QCMV
+      </a>
+      <div class="hidden md:flex gap-6 text-sm font-medium text-textSec">
+        <a href="index.html" class="hover:text-textMain transition-colors">Início</a>
+        <a href="privacidade.html" class="text-accent transition-colors">Privacidade</a>
+        <a href="verificacao.html" class="hover:text-textMain transition-colors">Verificação</a>
+        <a href="contato.html" class="hover:text-textMain transition-colors">Contato</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="flex-grow max-w-3xl mx-auto px-6 py-20 w-full">
+    <h1 class="text-4xl font-extrabold mb-4">Política de Privacidade</h1>
+    <p class="text-accent font-medium mb-12">Quanto Custa Minha Vida<br><span class="text-textSec font-normal text-sm">Última atualização: 29/09/2026</span></p>
+
+    <div class="space-y-10 text-textSec leading-relaxed">
+      <p>O aplicativo Quanto Custa Minha Vida foi desenvolvido para funcionar inteiramente no seu aparelho, sem servidor próprio e sem conta de usuário.</p>
+      
+      <section>
+        <h2 class="text-textMain text-xl font-bold mb-3 uppercase tracking-wider text-sm">O que não coletamos</h2>
+        <p>Não coletamos nome, e-mail, telefone, CPF, endereço, localização ou qualquer dado de identificação pessoal. Não existe cadastro, login ou conta vinculada ao aplicativo.</p>
+      </section>
+
+      <section>
+        <h2 class="text-textMain text-xl font-bold mb-3 uppercase tracking-wider text-sm">Onde seus dados ficam</h2>
+        <p>Todas as informações financeiras que você insere (receitas, despesas, investimentos, metas, contas, cartões) são armazenadas apenas no armazenamento local do seu aparelho. Nada é enviado a servidores nossos. Se você desinstalar o aplicativo sem exportar um backup, esses dados são perdidos permanentemente — não temos como recuperá-los, pois nunca tivemos acesso a eles.</p>
+      </section>
+
+      <section>
+        <h2 class="text-textMain text-xl font-bold mb-3 uppercase tracking-wider text-sm">Anúncios</h2>
+        <p>O aplicativo é gratuito e exibe anúncios fornecidos pelo Google AdMob. Para exibir anúncios, o AdMob pode coletar identificadores do dispositivo (como o ID de publicidade do Android) e outras informações técnicas, de acordo com a própria política de privacidade do Google, disponível em <a href="https://policies.google.com/privacy" class="text-accent hover:underline" target="_blank" rel="noopener">https://policies.google.com/privacy</a>. Você pode limitar a personalização de anúncios nas configurações de privacidade do seu Android (Configurações > Google > Anúncios).</p>
+      </section>
+
+      <section>
+        <h2 class="text-textMain text-xl font-bold mb-3 uppercase tracking-wider text-sm">Exportação e exclusão de dados</h2>
+        <p>Você pode exportar seus dados a qualquer momento (CSV ou JSON) e apagar todos os dados do aplicativo diretamente pela tela de Configurações, dentro do próprio app.</p>
+      </section>
+
+      <section>
+        <h2 class="text-textMain text-xl font-bold mb-3 uppercase tracking-wider text-sm">Alterações</h2>
+        <p>Esta política pode ser atualizada. A versão mais recente estará sempre disponível neste endereço.</p>
+      </section>
+
+      <section>
+        <h2 class="text-textMain text-xl font-bold mb-3 uppercase tracking-wider text-sm">Contato</h2>
+        <p>Dúvidas sobre esta política: <a href="mailto:giovannigonzaga1209@gmail.com" class="text-accent hover:underline">giovannigonzaga1209@gmail.com</a></p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="border-t border-white/5 mt-10">
+    <div class="max-w-5xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-textSec">
+      <p>© 2026 Giovanni — Quanto Custa Minha Vida</p>
+      <div class="flex gap-6">
+        <a href="privacidade.html" class="text-accent transition-colors">Privacidade</a>
+        <a href="verificacao.html" class="hover:text-accent transition-colors">Verificação</a>
+        <a href="contato.html" class="hover:text-accent transition-colors">Contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>
